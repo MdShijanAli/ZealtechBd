@@ -1,0 +1,39 @@
+<?php
+
+use App\Models\About;
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateAboutsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('abouts', function (Blueprint $table) {
+            $table->id();
+            $table->string('image')->nullable();
+            $table->text('description');
+            $table->timestamps();
+        });
+
+        // Create default one
+        $about = new About();
+        $about->description = 'About text here';
+        $about->save();
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('abouts');
+    }
+}

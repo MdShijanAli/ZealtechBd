@@ -1,0 +1,132 @@
+.form-area {
+    margin: 20px 0;
+    box-shadow: 0px 0px 30px rgb(127 137 161 / 30%);
+    padding: 30px;
+}
+.form-area .heading {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    /* letter-spacing: 1px; */
+    position: relative;
+    color: #1C3C72;
+    border-bottom: 1px solid #ccc;
+}
+.btn-outline-info, .btn-outline-info:hover {
+    background-color: #1C3C72;
+    border-color: #1C3C72;
+    color: #fff;
+}
+
+
+/* footer area css */
+.footer-area {
+    background-color: #1b2434;
+    padding: 30px 0 0;
+}
+.footcont a {
+    text-decoration: none;
+}
+.footcont span {
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.footcont p {
+    text-align: justify;
+    font-size: 14px;
+}
+.footcont ul li {
+    color: #fff;
+    font-size: 14px;
+    list-style: none;
+}
+.footcat ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.footcat ul li a:hover {
+    color: #0c002b;
+}
+.foot-botttom {
+    background-color: #1F2732;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 5px 0;
+}
+.foot-botttom p {
+    color: #fff;
+}
+.foot-botttom a {
+    text-decoration: none;
+    color: #fff;
+}
+.foot-botttom a:hover {
+    color: #1779ff;
+    transition: .3s;
+}
+.socialfoot li a{
+    color:  #fff;
+    padding: 5px;
+}
+.socialfoot li a:hover {
+    color:  #1779ff;
+    transition: .3s;
+}
+
+.footer-logo {
+    height: 80px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+ol, ul {
+    padding-left: 0rem !important;
+}
+
+
+
+/* footer quick menu css */
+.quick-menu ul li {
+    padding: 3px;
+    list-style: none;
+}
+.quick-menu ul li a {
+    color: #fff;
+    font-size: 15px;
+}
+.quick-menu ul li a:hover {
+    color: #1779ff;
+    text-decoration: none;
+}
+
+
+button.swal2-cancel.btn.btn-danger {
+    margin: 0px 5px;
+}
+
+.heading-title{
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 20%);
+    padding: 5px 20px;
+    margin-bottom: 30px;
+}
+
+.user-mt{
+    padding-top: 130px;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#owl-client .item img {
+    height: 100px;
+    padding: 20px 30px;
+}
+
+
+
